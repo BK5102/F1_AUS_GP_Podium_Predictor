@@ -20,12 +20,9 @@ before the race and compared to actual results after.
 ## Tech Stack
 Python, FastF1, XGBoost, SHAP, Streamlit, scikit-learn
 
-## Project Status
-🟡 In Progress — Data Collection Complete
-
 ## Repo Structure
 F1_AUS_GP_Podium_Predictor/
-├── podium_predictor.ipynb  # Main notebook
+├── 01_data_collection.ipynb  # Main notebook
 ├── aus_gp_data.csv         # Cleaned race data
 ├── requirements.txt        # Dependencies
 └── README.md
