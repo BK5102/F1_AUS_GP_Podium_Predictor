@@ -90,10 +90,14 @@ F1_AUS_GP_Podium_Predictor/
 
 | Driver | Predicted Probability | Actual Finish |
 |--------|----------------------|---------------|
-| HAM | 93.3% | TBD |
-| LEC | 80.4% | TBD |
-| VER | 71.3% | TBD |
-| NOR | 69.6% | TBD |
+| HAM | 93.3% | RUS |
+| LEC | 80.4% | ANT |
+| VER | 71.3% | LEC |
+| NOR | 69.6% | HAM |
+
+## Post-Race Analysis
+The model correctly identified LEC as a podium contender, but missed the other two contenders. Russell winning from P5 and Antonelli finishing P2 on his F1 debut. The model's core limitation was exposed here. It had no way to capture 
+Mercedes' underlying 2025 race pace, VER's reliability issues, or the breakout potential of a rookie driver. These are features worth adding in a future iteration. One correct prediction, two near misses, and two complete surprises. 
 
 ## Notes
 * Raw model probabilities cannot be trusted. Probability Calibration relects these raw scores, so they represent what is actually happening.
